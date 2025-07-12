@@ -10,12 +10,15 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This is a RESTful API built using **Express.js**, **Sequelize ORM**, and **MySQL** to manage Students, Courses, and Teachers. It includes full CRUD operations, Swagger API documentation, and a Faker-based database seeder.",
   "dependencies": {
-    "dotenv": "^17.0.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "faker": "^6.6.6",
-    "mysql2": "^3.14.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.2",
     "sequelize": "^6.37.7",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
@@ -23,5 +26,14 @@
   "devDependencies": {
     "@faker-js/faker": "^9.8.0",
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sothearasaroeun/school-api.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/sothearasaroeun/school-api/issues"
+  },
+  "homepage": "https://github.com/sothearasaroeun/school-api#readme"
 }
